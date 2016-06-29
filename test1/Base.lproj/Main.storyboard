@@ -155,21 +155,20 @@
                                     <action selector="negative:" destination="BYZ-38-t0r" eventType="touchUpInside" id="53f-Ap-48k"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SDA-8L-hG8">
-                                <rect key="frame" x="236" y="280" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt;-"/>
-                                <connections>
-                                    <action selector="backspace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sB7-Pg-YMl"/>
-                                    <action selector="delete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="whK-jP-rWG"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qFm-b8-D7s">
                                 <rect key="frame" x="46" y="285" width="155" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="="/>
                                 <connections>
                                     <action selector="equal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHs-yv-ynz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="H9V-td-P5Q">
+                                <rect key="frame" x="236" y="285" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt;-"/>
+                                <connections>
+                                    <action selector="backspace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RZL-hk-OkN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -181,7 +180,8 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="175" y="397"/>
+            <point key="canvasLocation" x="380" y="499"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.19593171627577755" green="0.10498261967205658" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

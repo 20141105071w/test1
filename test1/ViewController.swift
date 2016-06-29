@@ -55,13 +55,28 @@ class ViewController: UIViewController {
         a.text=a.text!+"9"
     }
     @IBAction func point(sender: AnyObject) {
+        var judgepoint:Bool=true
+        if( judgepoint==true)
+        {
         a.text=a.text!+"."
+             judgepoint = false
+        }
+       else{
+        a.text=a.text!+""
+        }
     }
     @IBAction func clear(sender: AnyObject) {
         a.text=" "
     }
     @IBAction func backspace(sender: AnyObject) {
-        
+        var str=a.text!
+       if str != ""{
+        str.removeAtIndex(str.endIndex.predecessor())
+        a.text=str
+        }
+       else{
+        a.text="0"
+        }
     }
     @IBAction func add(sender: AnyObject) {
         flag=1
@@ -105,8 +120,15 @@ class ViewController: UIViewController {
         }
         if flag==4
         {
+            if(Double)(a.text!)==0
+            {
+            a.text="error"
+            }
+            else
+            {
             temp=temp/(Double)(a.text!)!
             a.text="\(temp)"
+            }
         }
     }
 }
